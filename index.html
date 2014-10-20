@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <title>Flash2014 by erickpolit</title>
+  <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -16,17 +17,69 @@
     <header>
       <div class="container">
         <h1>Flash2014</h1>
-        <h2> Portafolio de Erick</h2>
+        <h2>&nbsp;</h2>
+
+        <div id="flashContent">
+      <p>
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="550" height="400" id="erickanimacion" align="middle">
+          <param name="movie" value="letras.swf" />
+          <param name="quality" value="high" />
+          <param name="bgcolor" value="#000000" />
+          <param name="play" value="true" />
+          <param name="loop" value="true" />
+          <param name="wmode" value="window" />
+          <param name="scale" value="showall" />
+          <param name="menu" value="true" />
+          <param name="devicefont" value="false" />
+          <param name="salign" value="" />
+          <param name="allowScriptAccess" value="sameDomain" />
+          <!--[if !IE]>-->
+     
+          <!--<![endif]-->
+          </object>
+      </p>
+     
+    </div>
+
         <p>
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400" id="FlashID" title="letras">
+            <param name="movie" value="letras.swf">
+            <param name="quality" value="high">
+            <param name="wmode" value="opaque">
+            <param name="swfversion" value="15.0.0.0">
+            <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+            <param name="expressinstall" value="Scripts/expressInstall.swf">
+            <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="letras.swf" width="550" height="400">
+              <!--<![endif]-->
+              <param name="quality" value="high">
+              <param name="wmode" value="opaque">
+              <param name="swfversion" value="15.0.0.0">
+              <param name="expressinstall" value="Scripts/expressInstall.swf">
+              <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+              <div>
+                <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+              </div>
+              <!--[if !IE]>-->
+            </object>
+            <!--<![endif]-->
+          </object>
 
           <ul>
-            <li><a href="texto1/index.html">Actividad 1 ( texto ) </a></li>
-             <li><a href="balonloco/index.html">Actividad 2 ( balon )</a></li>
-              <li><a href="tresbalones/index.html">Actividad 3 ( tres balones )</a></li>
-               <li><a href="balonrebotando/index.html">Actividad 4 ( balon rebotando )</a></li>
-                <li><a href="cara/index.html">Actividad 5 ( cara )</a></li>
-                 <li><a href="exa.1ºparcial/index.html">Actividad 6 ( Examen 1º parcial )</a></li>
-                  <li><a href="">Actividad 7 ( cuadro rebotando )</a></li>
+            <li><a href="texto1/index.html">Actividad texto </a></li>
+             <li><a href="balonloco/index.html">Actividad balon </a></li>
+              <li><a href="tresbalones/index.html">Actividad tres balones </a></li>
+               <li><a href="balonrebotando/index.html">Actividad balon rebotando </a></li>
+                <li><a href="cara/index.html">Actividad cara</a></li>
+                 <li><a href="exa.1ºparcial/index.html">Actividad Examen 1º parcial</a></li>
+                  <li><a href="hombrebateando1/index.html">Actividad hombre bateando 1</a></li>
+                  <li><a href="hombrebateando2/index.html">Actividad hombre bateando 2</a></li>
+                  <li><a href="dia-noche/index.html">Actividad dia noche</a></li>
+                  <li><a href="nombre/index.html">Actividad nombre</a></li>
+                  <li><a href="paisaje/index.html">Actividad paisaje</a></li>
+                  <li><a href="2º parcial/index.html">Actividad examen 2º parcial</a></li>
           </ul>
 
         </p>  
@@ -45,7 +98,8 @@
 <a name="trabajos-flash-2014" class="anchor" href="#trabajos-flash-2014"><span class="octicon octicon-link"></span></a>Trabajos flash 2014</h3>
       </section>
     </div>
-
-    
+  <script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
   </body>
 </html>
